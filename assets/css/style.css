@@ -89,7 +89,7 @@ body {
   color: black;
 }
 .profile_status {
-  font-size: 10px;
+  font-size: 12px;
   color: grey;
 }
 .button {
@@ -102,11 +102,18 @@ body {
 
 button {
   width: 13rem;
-  background-color: blueviolet;
+  background-color: darkblue;
   color: white;
   border: none;
   height: 50px;
 }
+button:hover{
+  background-color: palevioletred;
+}
+button:focus{
+  background-color: grey;
+}
+
 .users{
   display: flex;
   justify-content: center;
@@ -119,4 +126,12 @@ button {
   border-radius: 50%;
   margin-right: 10px;
   border: 1px solid darkgray;
+}
+.names{
+  font-size: 16px;
+  color: black;
+}
+.description{
+  font-size: 12px;
+  color: grey;
 }
