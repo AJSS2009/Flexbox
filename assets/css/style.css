@@ -1,7 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
 }
 .main_container {
   display: flex;
@@ -9,25 +12,25 @@
   height: 100vh;
 }
 .contacts {
-  background-color: #F7BFB6;
+  background-color: #f7bfb6;
   flex: 0 0 20%;
   display: flex;
   flex-direction: column;
 }
-.users_contact_state{
+.users_contact_state {
   flex: 0 0 7.5%;
   background-color: #fff;
 }
-.new_chat_contact{
+.new_chat_contact {
   flex: 0 0 17.5%;
   background-color: yellow;
 }
-.contact_contacts{
+.contact_contacts {
   flex: 1 0 0;
   background-color: grey;
 }
 .main {
-  background-color: #E8EBE4;
+  background-color: #e8ebe4;
   display: flex;
   flex: 0 0 80%;
   justify-content: center;
@@ -50,14 +53,70 @@
   font-size: 45px;
 }
 .main_text p {
-  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   padding-top: 1rem;
 }
-.contact_contacts{
+.contacts {
+  background-color: #fff;
+  border-right: 1px solid grey;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  background-color: white;
-  border-color: black;
+}
+.profiles_chat {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 10px 25px;
+  justify-content: space-between;
+}
+.profiles_chat img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.profile_user {
+  display: flex;
+}
+.profile_icon {
+  display: flex;
+}
+.profile_icon i {
+  margin: 5px;
+  color: lightgrey;
+}
+.profile_name {
+  font-size: 16px;
+  color: black;
+}
+.profile_status {
+  font-size: 10px;
+  color: grey;
+}
+.button {
+  height: 150px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 13rem;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  height: 50px;
+}
+.users{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:80px;
+  border-bottom: 1px solid grey;
+}
+.users img{
+  width: 4rem;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid darkgray;
 }
