@@ -102,21 +102,21 @@ body {
 
 button {
   width: 13rem;
-  background-color: darkblue;
+  background-color: #A491D2;
   color: white;
   border: none;
   height: 50px;
 }
 button:hover{
-  background-color: palevioletred;
+  background-color: #EF7F6D;
 }
 button:focus{
-  background-color: grey;
+  background-color:#F7BFB6;
 }
 
 .users{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   height:80px;
   border-bottom: 1px solid grey;
@@ -125,6 +125,7 @@ button:focus{
   width: 4rem;
   border-radius: 50%;
   margin-right: 10px;
+  margin-left: 20px;
   border: 1px solid darkgray;
 }
 .names{
@@ -132,6 +133,6 @@ button:focus{
   color: black;
 }
 .description{
-  font-size: 12px;
+  font-size: 14px;
   color: grey;
 }
